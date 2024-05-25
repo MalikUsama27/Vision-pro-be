@@ -1,7 +1,7 @@
 import { response } from "express";
 import orderModel from "../Models/orderModel.js";
 import productModel from "../Models/productModel.js";
-import { stripe } from "../server.js";
+import { stripe } from "../index.js";
 
 //order Controller
 export const createOrderController = async (req, res) => {
